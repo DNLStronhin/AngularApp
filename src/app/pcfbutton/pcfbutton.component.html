@@ -1,0 +1,15 @@
+<div class="pcf-container">
+  @if(data === 'Test') {
+  <label for="pcf-angular-button">Field Value is ‘Test’</label>
+  } @else{
+  <label for="pcf-angular-button"
+    >Field Value is not ‘Test’ and equal {{ data }}</label
+  >
+  }
+  <button (click)="onClick('Test')" name="pcf-angular-button">
+    Set ‘Test’
+  </button>
+  <button (click)="onClick('Not Test')" name="pcf-angular-button">
+    Set Not Test
+  </button>
+</div>

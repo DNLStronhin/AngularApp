@@ -1,0 +1,7 @@
+.pcf-container{
+    display: flex;
+    padding:10px;
+}
+.pcf-container label{
+    margin-right: 10px;
+}
